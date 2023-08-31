@@ -1,26 +1,28 @@
-# blogApp01
+# NetMarkdown
 
-This template should help get you started developing with Vue 3 in Vite.
+项目说明
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## 建立工程
 
 ```sh
 npm install
 ```
+### 安装依赖
 
-### Compile and Hot-Reload for Development
+```sh
+npm install vue-showdown@4.1.1
+npm install naive-ui@2.34.4
+npm install vfonts@0.0.3
+npm install vue-router@4.2.4
+```
+
+### 编译和热加载dev
 
 ```sh
 npm run dev
 ```
+只调试到这里就可以了
+-----
 
 ### Compile and Minify for Production
 
