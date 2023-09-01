@@ -1,5 +1,5 @@
 <script setup>
-import BlogCardList from '../components/BlogCardList.vue'
+import BlogCardList from '../components/HomeView/BlogCardList.vue'
 </script>
 
 <template>
