@@ -3,7 +3,7 @@ import { VueShowdown } from 'vue-showdown';
 </script>
 
 <template>
-    <div class="blogheader">
+    <div class="area">
         <h1>什么是Pytorch？</h1>
         <hr/>
         <p>Pytorch是一个基于Python的科学计算软件包，针对两组受众：</p>
@@ -11,7 +11,7 @@ import { VueShowdown } from 'vue-showdown';
             这是一款有着日本教科书体风格的<span style="font-weight: 600;">字体</span>，兼有仿宋和楷体的特点。一些 DIY 字体爱好者曾先后用仿宋等字体补全这款字体，作为手机系统的美化字体移植在 iOS、Android 等手机系统中，受到很多玩机发烧友的欢迎。不过这样补全的字体有一些不足之处。 第一，原有字体和后补字体之间有着一定的差异，致使一些不同的文字（如 Klee 原有汉字与后补简体字）混排之后会有一定的违和感。 第二，由于补字所用的字体为商业版权字体，补全之后不可用于商业用途，还会有侵权的风险。此外，目前现有的开源中文字库里，楷体类寥寥无几，仿宋类则几乎没有。
         </p>
     </div>
-    <div class="blog">
+    <div class="area" id="blog">
         <VueShowdown 
             markdown="
 # LXGW WenKai / 霞鹜文楷
@@ -125,39 +125,13 @@ An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文
     </div>
 </template>
 
+<style src="../../assets/comcss/area.css"></style>
 <style scoped>
-.blogheader {
-    padding: 30px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
-    word-wrap: break-word;
-    background-color: white;
-    border: 2px solid rgb(232, 234, 237);
-    border-radius: 15px;
-}
-.blog {
-    padding: 30px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
-    word-wrap: break-word;
-    background-color: white;
-    border: 2px solid rgb(232, 234, 237);
-    border-radius: 15px;
+#blog {
     min-height: 800px;
 }
-p {
-    margin-top: 0;
-    margin-bottom: 16px;
-}
-hr {
-    margin-top: 8px;
-    margin-bottom: 16px;
-}
 </style>
+
 
 <script>
 export default {

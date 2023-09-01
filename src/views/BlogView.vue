@@ -1,6 +1,6 @@
 <script setup>
-import Blog from '../components/Blog.vue';
-import Recommend from '../components/Recommend.vue';
+import Blog from '../components/BlogView/Blog.vue';
+import Recommend from '../components/BlogView/Recommend.vue';
 </script>
 
 <template>
